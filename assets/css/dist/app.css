@@ -1,0 +1,124 @@
+/* Font */
+/* Color */
+/* App Setup */
+.img-container {
+  overflow: hidden;
+  position: relative;
+}
+
+.img-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (min-width: 1400px) {
+
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
+    max-width: 1320px;
+  }
+}
+
+@media (min-width: 1680px) {
+
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
+    max-width: 1600px;
+  }
+}
+
+.icons-download,
+.icons-search {
+  vertical-align: middle;
+  background-size: 150px 150px !important;
+  background-repeat: no-repeat;
+  display: inline-block;
+  background-image: url(../img/icons.png);
+}
+
+/* End App Setup */
+.icons-search {
+  width: 17px;
+  height: 18px;
+  background-position: -4px -2px;
+  display: inline-block;
+  margin-right: 14px;
+  margin-left: 14px;
+}
+
+.icons-download {
+  width: 20px;
+  height: 20px;
+  background-position: -14px -12px;
+  display: inline-block;
+  margin-right: 14px;
+  margin-left: 14px;
+  font-family: RobotoRegular;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  font-family: RobotoRegular;
+  color: #fff;
+}
+
+input::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  font-family: RobotoRegular;
+  color: #fff;
+  opacity: 1;
+}
+
+input::-moz-placeholder {
+  /* Firefox 19+ */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  font-family: RobotoRegular;
+  color: #fff;
+  opacity: 1;
+}
+
+input:-ms-input-placeholder {
+  /* IE 10+ */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  font-family: RobotoRegular;
+  color: #fff;
+  opacity: 1;
+}
+
+input:-moz-placeholder {
+  /* Firefox 18- */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  font-family: RobotoRegular;
+  color: #fff;
+  opacity: 1;
+}
+
+.next {
+  height: 0;
+  width: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 50px;
+  border-left-color: black;
+  border-right: unset;
+  border-left-width: 100px;
+}
