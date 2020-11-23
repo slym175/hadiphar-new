@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="vi">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,22 +15,187 @@
     <link rel="stylesheet" href="./assets/css/jquery.fancybox.min.css">
     <link rel="stylesheet" href="./assets/css/animate.css">
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./assets/css/dist/app.css">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
+
 <body>
     <header class="header">
-        <!-- Do Something -->
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="app-nav navbar navbar-expand-md">
+                        <a class="navbar-brand" href="trangchu.html">
+                            <img src="./assets/images/logo.png" alt="Hadiphar Logo">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <i class="icons-menu-primary"></i>
+                        </button>
+                        <div class="app-menu collapse navbar-collapse" id="navbarSupportedContent">
+                            <button class="d-md-none" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Giới thiệu</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="#">Sản phẩm</a>
+                                    <div class="submenu lv1">
+                                        <ul class="submenu-list">
+                                            <li class="submenu-item">
+                                                <a class="submenu-link" href="#">Nhóm vitamin thuốc bổ</a>
+                                            </li>
+                                            <li class="submenu-item">
+                                                <a class="submenu-link" href="#">Nhóm kem mỡ ngoài da</a>
+                                            </li>
+                                            <li class="submenu-item">
+                                                <a class="submenu-link active" href="#">Nhóm thuốc Đông dược <i
+                                                        class="fa fa-chevron-right float-right"
+                                                        aria-hidden="true"></i></a>
+                                                <div class="submenu lv2">
+                                                    <ul class="submenu-list">
+                                                        <li class="submenu-item">
+                                                            <a class="submenu-link" href="#">Nhóm thuốc Đông dược 1</a>
+                                                        </li>
+                                                        <li class="submenu-item">
+                                                            <a class="submenu-link active" href="#">Nhóm thuốc Đông dược 2</a>
+                                                        </li>
+                                                        <li class="submenu-item">
+                                                            <a class="submenu-link" href="#">Nhóm thuốc Đông dược 2</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li class="submenu-item">
+                                                <a class="submenu-link" href="#">Nhóm giảm đau chống viêm</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Tin y dược</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Phân phối</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Tin tức</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Cổ đông</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Liên hệ</a>
+                                </li>
+                            </ul>
+                            <div class="search-container">
+                                <i id="btn-search-lg" class="icons-search" aria-hidden="true"></i>
+                                <form class="form-inline d-none" id="search-form">
+                                    <input class="form-control" type="search" placeholder="Tìm kiếm từ Hadiphar...">
+                                    <button class="btn" type="submit"><i class="fa fa-search"
+                                            aria-hidden="true"></i></button>
+                                </form>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
     </header>
+    <i id="icons-menu-primary" class="icons-menu-primary"></i>
 
     <main class="main">
         <!-- Do Something -->
+        <div class="img-container">
+            <img src="./assets/images/slide1.png" alt="">
+        </div>
     </main>
 
     <footer class="footer">
-        <!-- Do Something -->
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-3 col-lg-4 col-md-6">
+                    <div class="footer-content">
+                        <h4>Công ty cổ phần dược Hà Tĩnh</h4>
+                        <p>Giấy phép ĐKKD số: 3000104879 do Sở KH&ĐT Hà Tĩnh cấp đăng ký lần đầu ngày 29/12/2004.
+                            Đăng ký thay đổi lần thứ 14, ngày 27/12/2018.</p>
+                        <div class="img-container">
+                            <img src="./assets/images/bct.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 offset-xl-1 col-lg-4 col-md-6">
+                    <div class="footer-contact">
+                        <h4>Liên hệ</h4>
+                        <div class="d-flex">
+                            <i class="icons-location"></i>
+                            <p>167 Hà Huy Tập - TP. Hà Tĩnh - Việt Nam</p>
+                        </div>
+                        <div class="footer-grid">
+                            <a href="tel:0336 167 167" class="d-flex">
+                                <i class="icons-phone"></i>
+                                <p>0336 167 167</p>
+                            </a>
+                            <a href="" class="d-flex">
+                                <i class="icons-fax"></i>
+                                <p>+84 2393 856 821</p>
+                            </a>
+                            <a href="mailto:htp@hadiphar.vn" class="d-flex">
+                                <i class="icons-mail"></i>
+                                <p>htp@hadiphar.vn</p>
+                            </a>
+                            <a href="hadiphar.vn" class="d-flex">
+                                <i class="icons-web"></i>
+                                <p>hadiphar.vn</p>
+                            </a>
+                        </div>
+                        <div class="footer-social">
+                            <a href=""><i class="fab fa-facebook-square mr-3"></i></a>
+                            <a href=""><i class="fab fa-instagram-square mr-3"></i></a>
+                            <a href=""><i class="fab fa-linkedin mr-3"></i></a>
+                            <a href=""><i class="fab fa-twitter-square mr-3"></i></a>
+                            <a href=""><i class="fab fa-youtube mr-3"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 offset-xl-1 col-lg-4">
+                    <div class="footer-info">
+                        <h4>Thông tin</h4>
+                        <a href="">
+                            <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                            <p>Chính sách & quy định chung</p>
+                        </a>
+                        <a href="">
+                            <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                            <p>Hướng dẫn dặt hàng</p>
+                        </a>
+                        <a href="">
+                            <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                            <p>Thanh toán & nhận hàng</p>
+                        </a>
+                        <a href="">
+                            <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                            <p>Chính sách đổi trả</p>
+                        </a>
+                        <a href="">
+                            <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                            <p>Chính sách bảo mật</p>
+                        </a>
+                        <a href="" class="btn-download">
+                            <p>Download</p>
+                            <i class="icons-download"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="copy-right">
+                        <p>Copyright © 2020 Dược Hà Tĩnh All Rights Reserved</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </footer>
-    
+
     <script src="./assets/js/jquery.min.js"></script>
     <script src="./assets/js/wow.min.js"></script>
     <script src="./assets/js/bootstrap.min.js"></script>
@@ -38,4 +204,5 @@
     <script src="./assets/js/owl.carousel.min.js"></script>
     <script src="./assets/js/main.js"></script>
 </body>
+
 </html>
